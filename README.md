@@ -1,15 +1,27 @@
 # MAIInspections -> is a test software to check the whole abilities of CoreData(Operations CRUD and what's the object-related database) 
+
 ## Functionality 
-    I didn't implement many additional functionality inside the software's logic. At the moment I explored Create and Read abilities of abbreviation CRUD. 
+
+    I didn't implement many additional functionality inside the software's logic. 
+    At the moment I explored Create and Read abilities of abbreviation CRUD. 
+    
 ## Frameworks 
+
     1. Firebase 
     2. Coredata
     3. SDWebImage 
     4. SwiftLint
+    
 ## Frameworks FYI
-    SwiftLint, which been implemented in the project is temporary unused. To activate it, please, follow the next steps: MAIInspections -> Build Phases -> + (Run additional script) and insert in command line: ${PODS_ROOT}/SwiftLint/swiftlint, because I installed it via Cocoapods. 
+
+    SwiftLint, which been implemented in the project is temporary unused. 
+    To activate it, please, follow the next steps: 
+    MAIInspections -> Build Phases -> + (Run additional script) and insert in command line: ${PODS_ROOT}/SwiftLint/swiftlint, because I installed it via Cocoapods. 
+    
 ## Dependecies manager 
+
     1. Cocoapods
+    
 ## Step's to test: 
 
 1. When you touch bottomed button Add Violator you will be moved to other screen, where you will be able to create object of person, that will be implemented in the local database(CoreData) if you had filled all textFields before.
