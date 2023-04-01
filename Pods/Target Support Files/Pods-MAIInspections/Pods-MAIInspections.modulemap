@@ -1,0 +1,6 @@
+framework module Pods_MAIInspections {
+  umbrella header "Pods-MAIInspections-umbrella.h"
+
+  export *
+  module * { export * }
+}
